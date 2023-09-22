@@ -24,9 +24,9 @@ DNS解析子域名：subdomain.py
 
 PS：挂代理无法访问企查查，不能挂代理使用
 
-![](\images\aiqicha.png)
+![](https://github.com/chunliang11/nameless/blob/main/images/aiqicha.png)
 
-![](\images\icp.png)
+![](https://github.com/chunliang11/nameless/blob/main/images/icp.png)
 
 #### subdomain.py
 
@@ -34,9 +34,9 @@ PS：挂代理无法访问企查查，不能挂代理使用
 
 PS:本质是一个爬虫，访问网站需要代理，
 
-![](\images\Snipaste_2023-09-22_09-52-38.png)
+![](https://github.com/chunliang11/nameless/blob/main/images/Snipaste_2023-09-22_09-52-38.png)
 
-![](\images\doamin.png)
+![](https://github.com/chunliang11/nameless/blob/main/images/doamin.png)
 
 
 

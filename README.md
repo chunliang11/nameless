@@ -6,7 +6,7 @@
 
 目前还在完善思路的过程中一边进行书写，优化建议请提issues，谢谢支持
 
-![](\images\11.png)
+![]([\images\11.png](https://github.com/chunliang11/nameless/blob/main/images/11.png)
 
 ### 步骤
 

@@ -6,7 +6,7 @@
 
 目前还在完善思路的过程中一边进行书写，优化建议请提issues，谢谢支持
 
-![](C:\Users\dongkang li\Desktop\新建文件夹\images\11.png)
+![](\images\11.png)
 
 ### 步骤
 
@@ -24,9 +24,9 @@ DNS解析子域名：subdomain.py
 
 PS：挂代理无法访问企查查，不能挂代理使用
 
-![](C:\Users\dongkang li\Desktop\新建文件夹\images\aiqicha.png)
+![](\images\aiqicha.png)
 
-![](C:\Users\dongkang li\Desktop\新建文件夹\images\icp.png)
+![](\images\icp.png)
 
 #### subdomain.py
 
@@ -34,9 +34,9 @@ PS：挂代理无法访问企查查，不能挂代理使用
 
 PS:本质是一个爬虫，访问网站需要代理，
 
-![](C:\Users\dongkang li\Desktop\新建文件夹\images\Snipaste_2023-09-22_09-52-38.png)
+![](\images\Snipaste_2023-09-22_09-52-38.png)
 
-![](C:\Users\dongkang li\Desktop\新建文件夹\images\doamin.png)
+![](\images\doamin.png)
 
 
 

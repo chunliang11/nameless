@@ -71,7 +71,7 @@ def data_saver(sub_domains):
         title_list = ['子域信息']
         for i in range(len(title_list)):
             ws.cell(1, i + 1).value = title_list[i]
-        col_width = {'A': 45, 'B': 40, 'C': 22, 'D': 24, 'E': 9, 'F': 15, 'G': 13, 'H': 21}
+        col_width = {'A': 45, 'B': 45, 'C': 45, 'D': 45, 'E': 45, 'F': 45, 'G': 45, 'H': 45}
         for k, v in col_width.items():
             ws.column_dimensions[k].width = v
         ws.freeze_panes = 'A2'

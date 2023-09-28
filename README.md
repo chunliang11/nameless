@@ -14,6 +14,8 @@ ICP备案批量查询：ICP.py
 
 DNS解析子域名：subdomain.py
 
+子域名解析ip：domain-ip.py
+
 
 
 ### 运行
@@ -38,6 +40,10 @@ PS:本质是一个爬虫，访问网站需要代理，
 
 ![](https://github.com/chunliang11/nameless/blob/main/images/doamin.png)
 
+### domain-ip.py
+
+运行`domain-ip.py`,将自动对subdomain.py中输出的文件中的子域名进行ip解析
+
 
 
 ### 更新日志
@@ -46,5 +52,13 @@ PS:本质是一个爬虫，访问网站需要代理，
 2023/9/22
 - ICP备案信息查询
 - DNS子域输出
+
+
+0.2
+2023/9/28
+- subdomain脚本输出格式修改
+- 增加domain-ip子域名解析ip脚本输出
+
+
 
 ### 

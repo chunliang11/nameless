@@ -44,7 +44,7 @@ PS:本质是一个爬虫，访问网站需要代理，
 
 运行`domain-ip.py`,将自动对subdomain.py中输出的文件中的子域名进行ip解析
 
-![](https://github.com/chunliang11/nameless/blob/main/images/doamin-ip.png)
+![](https://github.com/chunliang11/nameless/blob/main/images/domain-ip.png)
 
 
 

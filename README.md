@@ -4,7 +4,7 @@
 
 旨在按照较为完善的思路经验写成工具收集资产，避免重复性的工作，
 
-目前还在完善思路的过程中一边进行书写，优化建议请提issues，谢谢支持
+目前还在完善思路的过程中一边进行书写，优化建议请提issues
 
 ![](https://github.com/chunliang11/nameless/blob/main/images/11.png)
 

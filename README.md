@@ -18,6 +18,8 @@ DNS解析子域名：subdomain.py
 
 端口扫描：PortScan.py
 
+web存活探测：http-web.py
+
 
 ### 运行
 

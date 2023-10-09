@@ -53,6 +53,13 @@ PS:本质是一个爬虫，访问网站需要代理，
 
 ![](https://github.com/chunliang11/nameless/blob/main/images/portscan.png)
 
+### http-web.py
+
+运行`http-web.py`,将自动对PortScan.py中输出的文件中的端口信息进行web存活探测
+
+![](https://github.com/chunliang11/nameless/blob/main/images/web-http.png)
+
+
 ### 更新日志
 
 0.1
@@ -69,3 +76,7 @@ PS:本质是一个爬虫，访问网站需要代理，
 0.3
 2023/10/09
 - 增加Portscan端口扫描脚本输出
+
+0.4
+2023/10/09
+- 增加http-web对扫描出的端口进行存活探测

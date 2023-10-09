@@ -111,7 +111,6 @@ def start_scan(target):
         print('[-] 正在扫描地址: {} '.format(socket.gethostbyname(target)))
         # 线程数
         pool = ThreadPool(processes=100)
-        # get传递超时时间，用于捕捉ctrl+c
         ports = range(1, 65536)
         mutex = Lock()
         result = []
@@ -136,7 +135,7 @@ def data_saver(row, ip, ports):
         ws = wb.create_sheet('端口信息')
     else:
         ws = wb['端口信息']
-    ws.cell(1, row - 1).value = ip + "开放端口"
+    ws.cell(1, row - 1).value = ip
     for i, val in enumerate(ports, start=2):
         ws.cell(i, row - 1).value = val
 
@@ -150,8 +149,8 @@ def main():
     for column in range(ord('B'), ord('Z')+1):
         for row in range(2, 100):
             ip = read_ip(chr(column), row)
-            if ip is None:  # 检查IP地址是否为空
-                break  # 停止循环
+            if ip is None:  
+                break  
             else:
                 if not check_cdn(ip):
                     ports = start_scan(ip)
@@ -160,8 +159,8 @@ def main():
                 else:
                     print('[-] 检测到CDN技术,停止扫描.')
         else:
-            continue  # 内循环正常结束，继续下一个外循环
-        break  # 内循环被break跳出，停止外循环
+            continue  
+        break  
 
 
 

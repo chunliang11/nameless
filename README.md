@@ -16,6 +16,7 @@ DNS解析子域名：subdomain.py
 
 子域名解析ip：domain-ip.py
 
+端口扫描：PortScan.py
 
 
 ### 运行

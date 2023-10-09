@@ -50,7 +50,7 @@ PS:本质是一个爬虫，访问网站需要代理，
 
 运行`PortScan.py`,将自动对domain-ip.py中输出的文件中的ip进行端口扫描
 
-![](https://github.com/chunliang11/nameless/blob/main/images/Portscan.png)
+![](https://github.com/chunliang11/nameless/blob/main/images/portscan.png)
 
 ### 更新日志
 

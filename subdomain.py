@@ -24,7 +24,7 @@ def read_domain(start_row):
 def get_sub_domains(domain, x=0):
     arr_key = ["1th_key","2th_key","3th_key","4th_key","5th_key","6th_key","7th_key","8th_key","9th_key","10th_key"]
         if x >= len(arr_key):
-        return -1  # 所有的键都失效了
+            return -1  # 所有的键都失效了
 
     keyapi = arr_key[x]
     try:

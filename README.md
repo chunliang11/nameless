@@ -27,7 +27,7 @@ web存活探测：http-web.py
 
 运行`ICP.py` , `sys.agv[1]` 参数读取公司名称查找备案，建议使用爱企查导出股份穿透图数据，填充到txt中配合使用
 
-PS：挂代理无法访问企查查，不能挂代理使用
+PS：挂代理无法访问ICP网站，不能挂代理使用
 
 ![](https://github.com/chunliang11/nameless/blob/main/images/aiqicha.png)
 
